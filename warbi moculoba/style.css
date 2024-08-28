@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "firago";
+    src: url('font/FiraGO-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "arial_caps";
+    src: url('font/arial-caps.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body{
+      font-family:firago;
+      background-color:#F5E9D9;
+  }
+  header{
+      background-image:url("background.png");
+      background-size:100vw;
+      background-repeat:no-repeat;
+      background-position: center bottom;
+      transform: rotate(180deg);
+      margin:0;
+      padding:0;
+  }
+  .name{
+      color:#34312C;
+      font-family:"arial_caps";
+      font-size:60px;
+      transform: rotate(180deg);
+      text-align:right;
+      margin:0;
+      padding-right:7.5%;
+      padding-top: 75vh; 
+      padding-bottom: 25vh;
+  }
+  .table td, .table th{
+      border: 3px solid lightgrey;
+      padding: 8px;
+      font-size:16px;
+  }
+  th.active{
+      font-size:18px;
+      color:white;
+  }
+  .active{
+      font-weight:bold;
+      color:white;
+  }
+  .table-bordered{
+      width:95%;
+      margin:2.5%;
+      margin-top:20px;
+      margin-bottom:20px;
+      border: 4px solid #34312C;
+      border-radius:20px;
+      display:block;
+      overflow:hidden;
+  }
+  
+  .table td:first-child{
+      width:5vw;
+  }
+  .table td:nth-child(2){
+      width:10vw;
+  }
+  .table td:nth-child(3), .table td:nth-child(4){
+      width:17.5vw;
+  }
+  .table td:nth-child(5), .table td:nth-child(6){
+      width:15vw;
+  }
+  .table td:nth-child(7), .table td:nth-child(8){
+      width:7.5vw;
+  }
+  
+  .table3 td:first-child{
+      width:5vw;
+  }
+  .table3 td:nth-child(2){
+      width:10vw;
+  }
+  .table3 td:nth-child(3), .table3 td:nth-child(4), .table3 td:nth-child(5), .table3 td:nth-child(6){
+      width:20vw;
+  }
+  footer{
+      background-color:#34312C;
+      border-top:solid #DAAA3B 20px;
+      font-family:"firago";
+      overflow-x: hidden;
+  }
+  footer img{
+      margin:20px;
+      padding:20px;
+      height:200px;
+  }
+  a{
+      margin:20px;
+      padding:20px;
+  }
+  i{
+      font-style:normal;
+      padding-top:60px;
+      margin-top:40px;
+      margin-left:50px;
+      color:lightgrey;
+  }
+  .gallery{
+      height:70vh;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  .carousel{
+      background-color:#34312C;
+  }
+  .isari{
+      width:50vw;
+      margin:0;
+      padding:0;
+  }
+  .carousel-caption h3{
+      font-size:20px;
+      position: absolute;
+      bottom: 30px; 
+      left: 0;
+      right: 0;
+      text-align: center;
+  }
+  .carousel-indicators{
+      margin-bottom:10px;
+  }
+  p{
+    text-align: justify;
+    text-justify: inter-word;
+    margin:2.5%;
+  }
+  h2, h3{
+      margin:3.75%;
+      margin-top:2.5%;
+      margin-bottom:2.5%;
+  }

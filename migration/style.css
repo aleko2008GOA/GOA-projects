@@ -1,0 +1,172 @@
+header{
+    background-image:linear-gradient(#002181, #1557B6);
+    padding-top:1px;
+    padding-bottom:40px;
+    color:white;
+    font-size:30px;
+    padding-left:150px;
+    padding-right:150px;
+}
+button{
+    padding:5px;
+    background-image:linear-gradient(#002181, #1557B6);
+    border-style:solid;
+    border-width:2px;
+    border-color:white;
+}
+button a{
+    color:white;
+    font-size:17px;
+}
+html{
+    background-image:linear-gradient(white, aliceblue, lightblue);
+}
+html, body{
+    margin:0px;
+    margin:0px;
+}
+main{
+    margin-left:150px;
+    margin-right:150px;
+}
+p{
+    margin-right:200px;
+}
+p, li{
+    margin-right:200px;
+}
+.a, .b, .m, .n{
+    transition:font-size 0.5s;
+}
+.a:hover{
+    font-size:40px;
+}
+.b:hover{
+    font-size:20px;
+}
+.n:hover{
+   font-size:40px; 
+}
+.m:hover{
+   font-size:30px; 
+}
+footer{
+    padding-left:150px;
+    padding-right:150px;
+    font-style:italic;
+    background-color:#7E7B7B;
+    padding:10px;
+    color:white;
+    text-align:right;
+    margin-top:200px;
+}
+.foot1{
+    margin-top:100px;
+}
+a{
+    color:black;
+}
+footer a{
+    color:white;
+}
+main a:hover{
+    color:grey;
+}
+main a:hover{
+    color:grey;
+}
+h2{
+    font-style:italic;
+}
+.img1{
+    width:35%;
+    border-style:dashed;
+    border-width:2px;
+    transition:width 0.7s, margin-left 0.7s;
+    filter:sepia(40%);
+    margin-left:5%;
+}
+.img1:hover{
+    width:39%;
+    margin-left:0%;
+}
+.img2{
+    margin-top:7px;
+    margin-right:7%;
+    width:40%;
+    transition:width 0.7s, MARGIN-RIGHT 0.7s;
+}
+.img2:hover{
+    width:45%;
+    margin-right:2%;
+}
+.imgstat{
+    transition:width 1s;
+    width:50%;
+    margin:10px;
+}
+.imgstat:hover{
+    width:80%;
+}
+.logo{
+    transition:width 0.5s;
+    width:100px;
+    border-style:dashed;
+    border-width:2px;
+    border-color:white;
+}
+.logo:hover{
+    width:120px;
+}
+iframe{
+    border-style:double;
+    border-width:4px;
+    border-color:darkblue;
+    margin-right:75px;
+}
+.iframeo{
+    margin-right:0px;
+}
+
+#aa:hover::after{
+    content:"- საცხოვრებლად ვარგისი/უვვარგისი ბუნებრივი პირობების გამო გადასახლება;";
+}
+#bb:hover::after{
+    content:"- განვითარებული ეკონომიკა ხელს უწყობს ახალი სამუშაო ადგილების გაჩენას და ასტიმულირებს იმიგრაციას;";
+}
+#cc:hover::after{
+    content:"- ოჯახის შექმნა და განქორწინება ასევე მიგრაციის მიზეზია;";
+}
+#dd:hover::after{
+    content:"- კანონის შესუსტება ზრდის მიგრაციას;";
+}
+#ee:hover::after{
+    content:"- პოლიტიკური დევნა ასტიმულირებს მი;გრაციას";
+}
+#ff:hover::after{
+    content:"- ტექნიკური და ეკოლოგიური პრობლემ;ები ზრდის მიგრაციული ნაკადების რაოდენობას";
+}
+#aaa:hover::after{
+    content:"- მიგრანტებს ექნებათ კომუნიკაციის პრობლემა ახალი ქვეყნის მოქალაქეებს მიმართ;";
+}
+#bbb:hover::after{
+    content:"- მიგრაციას ფასების სწრაფი ზრდა მოყვება;";
+}
+#ccc:hover::after{
+    content:"- მიგრაციისას მისახლეობის რაოდენობა მიმღებ ქვეყანაში სწრაფად იზრდება;";
+}
+#ddd:hover::after{
+    content:"- მიგრანტები თავის ქვეყანაში სხვა ვალუტით სარგებლობდნენ და მათთვის ახალი კურსი პრობლემა იქნება;";                                      
+}
+#eee:hover::after{
+    content:"- არალეგალურ მიგრანტებს ხშირად შემოაქვთ აკრძალული ნივთიერებები;";
+}
+#fff:hover::after{
+    content:"- მიგრანტების მიმართ ხშირად ცუდი მიპყრობა აქვთ ხალხს, მაგალითად რასიზმი, ან ომის შემდეგ ლტოლვილების მიმართ სიძულვილი;";
+}
+#ss:hover::after{
+    content:"- ქვეყნიდან გასვლა და უკან დაბრუნება პრობლემა არაა, პირიქით სასარგებლოა, მაგრამ უცხოელთა რეემიგრაცია საქართველოში ეკონიმიკას ასუსტებს და სარგებელს არ უტანს.";
+}
+.marign li{
+    margin-right:350px;
+}

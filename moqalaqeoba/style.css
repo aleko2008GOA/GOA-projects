@@ -1,0 +1,149 @@
+.carimg{
+    width:100vw;
+    height:100vh !important;
+}
+
+.carousel-inner{
+    height:100vh;
+}
+
+#myCarousel{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    margin-bottom:5vh;
+}
+
+.carus{
+    margin:0;
+    padding:0;
+}
+
+.gundi{
+    width:100vw;
+}
+
+.photo{
+    width:30vw;
+    margin-left:5vw;
+}
+
+.col-3 img{
+    margin-top:8vh;
+    margin-bottom:8vh;
+    height:20vh;
+    border:solid white 5px;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.col-3 img:hover{
+    margin-top:7vh;
+    margin-bottom:7vh;
+    height:22vh;
+}
+
+.col-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    margin-top:5vh;
+    background-color:grey;
+}
+
+.stadium {
+    height: 100vh;
+    width:140vh;
+    padding:0;
+    margin:0;
+    border:solid 5px grey;
+}
+
+.stad{
+    position:relative;
+    height: 100vh;
+    width:140vh;
+}
+
+.human {
+    position: absolute;
+    width: 8%;
+    height:16%;
+    border:solid white 3px;
+    border-radius:10px;
+}
+
+#mamarda, #a{
+    top: 70%;
+    left: 48%;
+}
+
+#kashia, #b{
+    top: 52%;
+    left: 48%;
+}
+
+#kite, #c{
+    top: 34%;
+    left: 48%;
+}
+
+#kverk, #d{
+    top: 70%;
+    left: 74%;
+}
+
+#dvali, #e{
+    top: 70%;
+    left: 20%;
+}
+
+#kaba, #f{
+    top: 18%;
+    left: 83%;
+}
+
+#shenga, #g{
+    top: 18%;
+    left: 63%;
+}
+
+#kocho, #h{
+    top: 18%;
+    left: 31%;
+}
+
+#chak, #i{
+    top: 18%;
+    left: 10%;
+}
+
+#zizv, #j{
+    top: 2%;
+    left: 72%;
+}
+
+#kvara, #k{
+    top: 2%;
+    left: 20%;
+}
+
+#mamarda, #kashia, #kite, #kverk, #dvali, #kaba, #shenga, #kocho, #chak, #zizv, #kvara{
+    z-index:1000;
+}
+
+#mamarda:active, #kashia:active, #kite:active, #kverk:active, #dvali:active, #kaba:active, #shenga:active, #kocho:active, #chak:active, #zizv:active, #kvara:active{
+    z-index:300;
+}
+
+#a, #b, #c, #d, #e, #f, #g, #h, #i, #j, #k{
+    z-index:500;
+}
+
+.h{
+    margin-bottom:2vh;
+}

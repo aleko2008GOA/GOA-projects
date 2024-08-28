@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Notes</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div id = "opacity_element"></div>
+        <button id = 'new_note'><i class="fas fa-plus"></i> New Note</button>
+        <button id = 'save_all'><i class="fas fa-save"></i> Save</button>
+        <div id = "my_notes">
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+            <div class = 'note'></div>
+        </div>
+        <div id = "alert">
+            <h2>Please answer this questions:</h2>
+            <form id = "alert_form">
+                <label id = "title">Title:</label><br>
+                <input type = "text" placeholder = "e.g: Films" id = "note_title" name = "note_title"><br>
+                <label id = "body">Body:</label><br>
+                <textarea placeholder = "Description (optional)" id = "note_body" name = "note_body"></textarea><br>
+                <div style = "width:100%; height:1px; background-color:black"></div>
+                <div id = "note_info">
+                    
+                </div>
+                <span id = "alert_icons">
+                    <i class="fas fa-font icon"></i> 
+                    <i class="fas fa-check icon"></i>
+                    <i class="fas fa-bold icon"></i> 
+                    <i class="fas fa-italic icon"></i>
+                    <i class="fas fa-underline icon"></i>
+                    <i class="fas fa-strikethrough icon"></i>
+                    <i class="fas fa-search-plus icon"></i> 
+                    <i class="fas fa-search-minus icon"></i> 
+                    <i class="fas fa-image icon"></i>
+                    <input type="file" id="fileInput" accept="image/*" style="display: none;">
+                </span>
+                <span id = "alert_buttons">
+                    <button id = "submit">Submit</button>
+                    <button id = "cancel">Cancel</button>
+                </span>
+            </form>
+        </div>
+        <script src = "script.js"></script>
+    </body>
+</html>
